@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') %>
+
+<div class="min-vh-100">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="content col-lg-8 col-12 p-4">
+                <h1><%= title %></h1>
+                <p><%= content %></p>
+            </div>
+            <div
+                class="content col-lg-2 col-8 my-4 mx-4 p-3 d-none d-lg-none d-md-none d-sm-none d-xl-block text-center"
+                style="height: 170px;">
+                <form class="dlt" action="/delete" method="post">
+
+                    <input style="width: 85%;"
+                        class="btn btn-danger fs-5 btn-lg my-2 button-rad"
+                        type="submit" name="delete" value="Delete">
+                </form>
+                <a href="/edit/<%= postId %>"><input style="width: 85%;"
+                        class="btn btn-light fs-5 btn-lg my-2 button-rad"
+                        type="button" value="Edit"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("partials/footer.ejs") %>
