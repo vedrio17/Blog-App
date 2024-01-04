@@ -1,6 +1,4 @@
-Certainly! Here's a template for your README file:
 
----
 
 # Blog Web Application
 
