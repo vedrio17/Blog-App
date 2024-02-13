@@ -55,6 +55,11 @@ This project is a Blog web application built using Node.js, Express.js, and EJS.
 
    The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
+
+##ScreenShot
+
+[![Screenshot-2024-02-13-145610.png](https://i.postimg.cc/FHnSc2NB/Screenshot-2024-02-13-145610.png)](https://postimg.cc/fVmkQq3c)
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
